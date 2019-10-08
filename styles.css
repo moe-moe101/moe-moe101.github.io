@@ -1,11 +1,11 @@
 body {
-	width:100%;
+	width:95%;
 	height:100%;
 	padding: 30px;
 }
 
 h1{
-	font-size: 30px;
+	font-size: 45px;
 	font-family: Vani, Verdana, "Times New Roman";
 	text-align: center;	
 }
@@ -26,14 +26,14 @@ p{
 }
 
 h4{
-	font-size: 16px;
+	font-size: 14px;
 	font-family: Verdana;
 	text-align: center;
 }
 
 #main{
 	display:grid;
-	grid-template-columns: 30% 70%;
+	grid-template-columns: 30% auto;
 	padding-right: 100px;
 }
 
@@ -44,6 +44,14 @@ h4{
 	width: 5%;
 }
 
+
+#main #sidebar img{
+	border-radius: 100%;
+	
+}
+
+
+
 #background_info{
 	padding: 30px;
 }
@@ -53,16 +61,21 @@ h4{
 	padding: 40px;
 	width-auto;
 	background-color: #4bbbaf;
-	margin: 10px;
+	
+	
 }
-
 #header{
 	border: 1px solid;
+	width: 1000px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
 	color: white;
-}
-
-#pic{
-    border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	
 }
 
 .section{
