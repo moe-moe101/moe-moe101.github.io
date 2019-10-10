@@ -2,6 +2,7 @@ body {
 	width:95%;
 	height:100%;
 	padding: 30px;
+	
 }
 
 h1{
@@ -31,10 +32,18 @@ h4{
 	text-align: center;
 }
 
+header{
+	width:450px;
+	
+	
+}
+
 #main{
 	display:grid;
 	grid-template-columns: 30% auto;
 	padding-right: 100px;
+	grid-row-gap: 10px;
+	grid-column-gap: 15px;
 }
 
 #sidebar{
@@ -73,12 +82,11 @@ h4{
 
 #header{
 	border: 1px solid;
-	width: 1000px;q	
+	width: 450px;
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	
 	color: white;
 	display: flex;
 	justify-content: center;
